@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('Source Code'){
             steps {
-                 url: 'https://github.com/subhendusekhar111/nodejsproject.git'
+             'https://github.com/subhendusekhar111/nodejsproject.git'
             }
         }
         stage('Dependencies') {
