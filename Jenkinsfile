@@ -1,5 +1,5 @@
 pipeline{
-    agent{ label 'JDK11'}
+    agent{ label 'JDK_11'}
     stages{
         stage('Source Code'){
             steps {
