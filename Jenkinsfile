@@ -26,11 +26,11 @@ pipeline{
                 sh 'npm test'
             }
         }
-       // stage('Sonar Analysis') {
-       //     steps {
-        //        sh 'npm run sonar'
-       //     }
-       // }
+        stage('Sonar Analysis') {
+            steps {
+                sh 'npm run sonar'
+            }
+        }
 
     }
 }
